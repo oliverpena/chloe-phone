@@ -1,12 +1,8 @@
 import Login from "./components/Login/Login";
-import classes from "./App.module.css";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
-  return (
-    <div className={classes["login-screen"]}>
-      <Login />
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
